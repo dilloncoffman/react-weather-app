@@ -125,3 +125,22 @@ button:active {
   letter-spacing: 1px;
   font-weight: 200;
 }
+
+@media only screen and (max-width: 768px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+    input {
+        width: 100% !important;
+    }
+    .title-container {
+        height: 25vh;
+    }
+    .form-container {
+        padding: 25px 25px;
+        height: 65vh;
+    }
+    .weather__info {
+        width: 100%;
+    }
+}
