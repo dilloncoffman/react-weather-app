@@ -3,7 +3,7 @@ import Titles from './components/Titles';
 import Form from './components/Form';
 import Weather from './components/Weather';
 
-const API_KEY = "c9cbb7eb77091b1c59709c84311eaf41"
+const API_KEY = "Your key :)"
 
 class App extends React.Component {
     //using React v16, we don't have to define state in a constructor
